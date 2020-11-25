@@ -26,8 +26,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Demo
 
-<img src="demo/1.gif" width="800" height="650">
+<img src="demo/1.gif" width="800" height="600">
 
-<img src="demo/2.gif" width="800" height="650">
+<img src="demo/2.gif" width="800" height="600">
 
-<img src="demo/3.gif" width="800" height="650">
+<img src="demo/3.gif" width="800" height="600">
