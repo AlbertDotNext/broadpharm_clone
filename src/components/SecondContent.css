@@ -1,0 +1,106 @@
+.Second-Content {
+  background-color: #f1f3f7;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #232c32;
+}
+
+.B1 {
+  border-bottom: 1px solid #d3d7d9;
+  border-right: 1px solid #d3d7d9;
+  position: relative;
+  padding: 0;
+  flex-grow: 1;
+  width: 30%;
+}
+
+.B1 a {
+  display: inline-block;
+  color: #232c32;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.B1 a figure {
+  margin: 0;
+  padding: 2em;
+
+  transition: all 0.3s ease;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.animate-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.icon1 {
+  background-color: #1e2534;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.icon1 img {
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  border-style: none;
+}
+.B1 a figure figcaption {
+  font-weight: 600;
+  padding: 1em 0;
+  color: #232c32;
+  display: block;
+  text-align: center;
+}
+
+.SC-Button p {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.SC-Button a {
+  background-color: #1e2534;
+  width: 286px;
+  max-width: 100%;
+  display: inline-block;
+  padding: 15px 0;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .B1 {
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+.FourthContent {
+  background-color: #f1f3f7;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  display: block;
+}
+
+.FourthContent h3 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.readmore a {
+  color: #fff;
+  font-style: italic;
+  text-align: right;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.feedback-items p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.feedback-item1 {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #29acf0;
+  color: #fff;
+  margin: 15px;
+  font-size: 14px;
+  border-radius: 10px;
+  box-shadow: 1.939px 3.498px 32px 0px rgba(70, 70, 70, 0.18);
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.readmore {
+  text-align: right;
+  cursor: pointer;
+}
+.feedback-item1 blockquote {
+  font-size: 20px;
+}

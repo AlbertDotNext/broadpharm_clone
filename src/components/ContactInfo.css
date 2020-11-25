@@ -1,0 +1,28 @@
+.Contact {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  width: auto;
+  align-content: space-around;
+}
+
+.nav-contact {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #2685ca;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-contact {
+    display: none;
+  }
+}

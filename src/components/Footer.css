@@ -1,0 +1,153 @@
+.Footer {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1e2534;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.Footer_logo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3em;
+  position: relative;
+}
+
+.footer-logo {
+  /* vertical-align: middle; */
+  width: 250px;
+  padding-top: 2em;
+  margin-left: -200px;
+  margin-right: -15px;
+}
+
+.column-info {
+  text-align: center;
+  margin-right: -30px;
+}
+.column-info p {
+  padding: 2em 10em 0.5em 0;
+  font-size: 14px;
+  color: #fff;
+  width: 75%;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.column-info ul {
+  font-size: 14px;
+  color: #fff;
+  list-style: none;
+  display: block;
+  text-align: left;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; */
+  line-height: 200%;
+  width: 90%;
+}
+
+.column-info ul li {
+}
+
+.Footer_logo .column-info h6 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding-top: 3em;
+  display: inline-block;
+  /* margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+  font-size: 1em;
+  margin-right: -50px;
+  margin-left: -50px;
+}
+
+.bottom-content {
+  width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 20px;
+  padding-bottom: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-top: 3em;
+}
+
+.copyright p {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  display: block;
+  margin-block-end: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+}
+
+.social-media {
+  position: relative;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-block-end: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  padding-inline-start: 300px;
+}
+
+.social-media ul li {
+  padding-right: 5px;
+  color: #fff;
+  background-color: #262e40;
+  border-radius: 100%;
+  height: 54px;
+  width: 54px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
+
+.social-media ul li:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .Footer_logo {
+    display: block;
+    width: 100%;
+  }
+  .column-info h6 {
+    text-align: left;
+  }
+  .bottom-content {
+    display: block;
+  }
+}

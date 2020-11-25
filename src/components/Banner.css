@@ -1,0 +1,30 @@
+* {
+  list-style-type: none;
+}
+
+.Banner-Secondary {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-around;
+}
+.Banner-item {
+  color: #6b6b6b;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.Banner-item p img {
+  padding-right: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .Banner-Secondary {
+    display: block;
+  }
+}

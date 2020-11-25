@@ -1,0 +1,63 @@
+.Distributors {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logos {
+  position: relative;
+
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.logo1 {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: block;
+}
+
+.item img {
+  margin: 0 auto;
+  object-fit: contain;
+  width: 180px;
+  display: block;
+}
+.Distributors {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.logo1 p {
+  text-align: center;
+}
+
+.logo-button {
+  padding-top: 2em;
+}
+
+.logo-button a {
+  background-color: #1e2534;
+  width: 286px;
+  max-width: 100%;
+  display: inline-block;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.8px;
+}
+
+@media screen and (max-width: 991px) {
+  .Distributors {
+    display: block;
+    width: 100%;
+  }
+}
