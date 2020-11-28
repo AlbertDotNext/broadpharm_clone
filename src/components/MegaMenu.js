@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../logo.png';
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
 import './MegaMenu.css'
+import SearchIcon from '@material-ui/icons/Search';
 
 function MegaMenu() {
   return (
@@ -27,15 +28,17 @@ function MegaMenu() {
                 <NavDropdown.Item href="#action/3.2">QA/QC</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="ABOUT" id="basic-nav-dropdown">
-
+                <NavDropdown.Item href="#action/3.1">COMPANY INFO</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">NEWS ROOM</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="CONTACT" id="basic-nav-dropdown">
-
+                <NavDropdown.Item href="#action/3.1">UNITED STATES</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">DISTRIBUTORS</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <Form inline>
+            <Form inline className="mega-search-box">
               <FormControl type="text" placeholder="Search" className="search-box" />
-              <Button className="search-box-button" variant="outline-success">Search</Button>
+              <Button className="search-box-button" ><SearchIcon/></Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>
