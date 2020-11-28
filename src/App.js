@@ -9,7 +9,9 @@ import ThirdContent from './components/ThirdContent';
 import FourthContent from './components/FourthContent';
 import Distributors from './components/Distributors';
 import Footer from './components/Footer';
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 
 function App() {
   return (

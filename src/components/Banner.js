@@ -68,7 +68,7 @@ function Banner() {
         <div className="Banner-item">
           <p>
 
-            <img src="https://www.broadpharm.com/public/uploads/page_section_images/vial-solid-grey-1580511879.png" width="30" height="30"/>
+            <img src="https://www.broadpharm.com/public/uploads/page_section_images/vial-solid-grey-1580511879.png" width="40" height="30"/>
             New Products
           </p>
 

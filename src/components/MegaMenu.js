@@ -2,18 +2,19 @@ import React from 'react';
 import logo from '../logo.png';
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
 import './MegaMenu.css'
+
 function MegaMenu() {
   return (
     <div className="mega">
 
 
-        <Navbar expand="lg">
+        <Navbar expand="lg" className="megabar">
           <a className="logo" href="https://www.broadpharm.com">
             <img src={logo} alt="BroadPharm"/>
           </a>
 
           <Navbar.Collapse className="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="mega-navbar">
               <Nav.Link href="#home">HOME</Nav.Link>
 
               <NavDropdown title="PRODUCTS" id="basic-nav-dropdown">
@@ -33,8 +34,8 @@ function MegaMenu() {
               </NavDropdown>
             </Nav>
             <Form inline>
-              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-              <Button variant="outline-success">Search</Button>
+              <FormControl type="text" placeholder="Search" className="search-box" />
+              <Button className="search-box-button" variant="outline-success">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>

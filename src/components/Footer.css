@@ -5,12 +5,12 @@
   color: #212529;
   font-family: 'Open Sans', sans-serif;
   background-color: #1e2534;
-
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 
 .Footer_logo {

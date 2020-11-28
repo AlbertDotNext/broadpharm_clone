@@ -4,6 +4,7 @@
   top: 10px;
   width: auto;
   align-content: space-around;
+  box-sizing: border-box;
 }
 
 .nav-contact {
@@ -21,8 +22,15 @@
   box-sizing: border-box;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .nav-contact {
     display: none;
+  }
+  .hamburger {
+    display: flex;
   }
 }

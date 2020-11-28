@@ -1,6 +1,11 @@
 .App {
   text-align: center;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {

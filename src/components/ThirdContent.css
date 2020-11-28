@@ -5,6 +5,7 @@
   margin-right: auto;
   margin-left: auto;
   display: block;
+  box-sizing: border-box;
 }
 .ThirdContent {
   padding-bottom: 5em;
@@ -120,6 +121,7 @@
     width: 100%;
   }
   .row {
-    display: block;
+    display: inline-block;
+    vertical-align: middle;
   }
 }

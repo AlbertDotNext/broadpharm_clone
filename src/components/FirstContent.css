@@ -9,6 +9,7 @@
   background-size: cover;
   padding: 3em 0;
   color: #6b6b6b;
+  box-sizing: border-box;
 }
 
 @media (max-width: 800px) {
@@ -25,12 +26,12 @@ h5 {
 
 .block-items {
   display: flex;
-  flex-direction: row;
+
   padding-bottom: 4em;
   padding-top: 4em;
   margin-right: -15px;
   margin-left: -15px;
-  width: 40%;
+  width: 100%;
 }
 
 .block-items .Box1 a figure {
@@ -62,6 +63,7 @@ h5 {
   transition: all 0.5s ease;
   color: #fff;
   font-size: 15px;
+  width: 100%;
 }
 
 .Box1:hover figure figcaption {
@@ -131,5 +133,8 @@ h5 {
   .block-items {
     display: block;
     width: 100%;
+  }
+  .Box1 {
+    padding-top: 2em;
   }
 }

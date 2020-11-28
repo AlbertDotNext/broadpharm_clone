@@ -3,6 +3,7 @@
   padding-bottom: 3em;
   padding-top: 3em;
   display: block;
+  box-sizing: border-box;
 }
 
 .FourthContent h3 {
@@ -53,4 +54,10 @@
 }
 .feedback-item1 blockquote {
   font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .feedback-item1 {
+    width: 100%;
+  }
 }

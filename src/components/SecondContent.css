@@ -3,6 +3,7 @@
   padding-bottom: 3em;
   padding-top: 3em;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 h3 {
@@ -102,5 +103,8 @@ h3 {
   .B1 {
     display: block;
     width: 100%;
+  }
+  .icon1 img {
+    max-width: 70px;
   }
 }

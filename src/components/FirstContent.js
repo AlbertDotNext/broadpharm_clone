@@ -14,7 +14,7 @@ function FirstContent() {
                   <figcaption>
                     <h6>PEG Linkers</h6>
                     <div className="image-background">
-                      <img src="https://www.broadpharm.com/public/uploads/page_section_images/PEG-Linkers-Icon-Front-Page-1594849244.png" width="300" />
+                      <img src="https://www.broadpharm.com/public/uploads/page_section_images/PEG-Linkers-Icon-Front-Page-1594849244.png" width="200" />
                     </div>
 
                     <p>Over 4,000 high purity PEG reagents kept in stock to empower your PEGylation, bioconjugation, crosslinking, ADC drug development, biolabeling for pharmaceutical and biotech R&D.
@@ -32,7 +32,7 @@ function FirstContent() {
                   <figcaption>
                     <h6>Click Chemistry</h6>
                     <div className="image-background">
-                      <img src="https://www.broadpharm.com/public/uploads/page_section_images/Click-Chemistry-Icon-Front-Pag-1594849244.png" width="300" />
+                      <img src="https://www.broadpharm.com/public/uploads/page_section_images/Click-Chemistry-Icon-Front-Pag-1594849244.png" width="200" />
                     </div>
 
                     <p>
@@ -51,7 +51,7 @@ function FirstContent() {
                   <figcaption>
                     <h6>Fluorescent Labeling</h6>
                     <div className="image-background">
-                      <img src="https://www.broadpharm.com/public/uploads/page_section_images/Picture2-1586280413.png" width="300" height="100"/>
+                      <img src="https://www.broadpharm.com/public/uploads/page_section_images/Picture2-1586280413.png" width="250" height="130"/>
                     </div>
 
                     <p>
