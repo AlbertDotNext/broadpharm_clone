@@ -108,3 +108,29 @@ h3 {
     max-width: 70px;
   }
 }
+
+.animate-items .B1:hover figure {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.animate-items .B1:hover figure:before {
+  content: '+';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: #27a3e3;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  padding: 3px 0px 3px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #fff;
+  text-align: center;
+  margin: auto;
+}
