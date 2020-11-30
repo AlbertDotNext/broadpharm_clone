@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="Footer">
       <div className="Footer_logo">
-        <div className="column-info">
+        <div className="column-info-fotter-contact">
           <img src={logo} className="footer-logo"/>
           <p>
             6625 Top Gun Street, Suite 103 San Diego, CA 92121

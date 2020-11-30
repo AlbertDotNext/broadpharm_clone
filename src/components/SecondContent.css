@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-h3 {
+.SecondContent-title h3 {
   text-align: center;
   position: relative;
   margin-bottom: 40px;

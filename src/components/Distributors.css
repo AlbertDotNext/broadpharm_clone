@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+.Distributors-Title h3 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #232c32;
+}
+
 .logos {
   position: relative;
 
@@ -34,6 +44,7 @@
 }
 .logo1 p {
   text-align: center;
+  font-weight: bold;
 }
 
 .logo-button {

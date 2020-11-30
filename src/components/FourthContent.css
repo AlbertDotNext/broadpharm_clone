@@ -56,8 +56,27 @@
   font-size: 20px;
 }
 
+.feedback-items-mobile-view {
+  display: none;
+}
 @media screen and (max-width: 991px) {
   .feedback-item1 {
     width: 100%;
+  }
+  .feedback-items {
+    display: none;
+  }
+  .feedback-items-mobile-view {
+    display: block;
+  }
+  .feedback-item1 {
+    height: 500px;
+    overflow-y: auto;
+  }
+  .feedback-item1 blockquote {
+    font-size: 18px;
+  }
+  .rec-arrow[disabled] {
+    display: none;
   }
 }

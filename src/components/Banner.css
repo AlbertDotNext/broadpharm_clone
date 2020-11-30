@@ -28,4 +28,8 @@
   .Banner-Secondary {
     display: block;
   }
+  .Banner-item p {
+    text-align: left;
+    padding-left: 20px;
+  }
 }
