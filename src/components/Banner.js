@@ -1,16 +1,18 @@
 import React from 'react';
-import {Carousel } from 'react-bootstrap';
+// import {Carousel } from 'react-bootstrap';
 import Img1 from '../img1.png'
 import Img2 from '../img2.png'
 import Img3 from '../img3.png'
 import './Banner.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 function Banner() {
   return (
     <div className="Banner">
       <div className="Banner-Major">
 
-        <Carousel>
+        <Carousel nextIcon={<span aria-hidden="true" className="" />}
+        prevIcon={<span aria-hidden="true" className="" />}>
           <Carousel.Item>
             <img
               className="d-block w-100"
