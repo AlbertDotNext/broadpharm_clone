@@ -1,71 +1,41 @@
-import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
-import HamburgerMenu from 'react-hamburger-menu';
-import './HamburgerMenu.css'
+import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
+import './HamburgerMenu.css';
+import LockOpenIcon from '@material-ui/icons/LockOpen';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import SearchIcon from '@material-ui/icons/Search';
 
-class Hamburger extends Component {
-    constructor(){
-        super()
-        this.state = {
-            open: false,
-            hideOrShowHambugerDropDown: 'nav'
-        }
-    }
+export default HamburgerMenu => {
+  return (
+    <Menu right width={400}>
+      <a className="menu-item" href="/">
+        Home
+      </a>
+      <a className="menu-item" href="/salads">
+        Products
+      </a>
+      <a className="menu-item" href="/pizzas">
+        Order
+      </a>
+      <a className="menu-item" href="/desserts">
+        Technical
+      </a>
+      <a className="menu-item" href="/desserts">
+        About
+      </a>
+      <a className="menu-item" href="/desserts">
+        Contact
+      </a>
+      <a className="menu-login-item" href="/desserts">
+        <LockOpenIcon/>Login
+      </a>
+      <a className="menu-cart-item" href="/desserts">
+        <ShoppingCartIcon/>Cart
+      </a>
+      <div className="search-box">
+        <input type="search" placeholder={"search"} className="search-box-value"/><button className="search-box-button"><SearchIcon/></button>
 
-    handleClick = () => {
-        this.setState({open: !this.state.open});
-    }
-
-    displayHamburgerMenu = () => {
-        return (
-            <HamburgerMenu
-                    isOpen={this.state.open}
-                    menuClicked={this.handleClick.bind(this)}
-                    width={18}
-                    height={15}
-                    strokeWidth={1}
-                    rotate={0}
-                    color='white'
-                    borderRadius={0}
-                    animationDuration={0.5}
-                />
-        )
-    }
-
-    displayNavBar = () => {
-      return (
-          <ul className='nav'>
-                  <li className='nav-link'><NavLink to='/' >Home</NavLink></li>
-                  <li className='nav-link'><NavLink to='/about'>About John Williams</NavLink></li>
-                  <li className='nav-link'><NavLink to='/criminalDefence'>Criminal Defence</NavLink></li>
-                  <li className='nav-link'><NavLink to='/DUIS'>DUIS</NavLink></li>
-                  <li className='nav-link'><NavLink to='/personalInjury'>Personal Personal Injury</NavLink></li>
-                  <li className='nav-link'><NavLink to='/contact'>Contact</NavLink></li>
-              </ul>
-      )
-  }
-
-  displayMobileMenu = () => {
-      return (
-          <ul className='hamburgerDropDown'>
-                  <li className='nav-link'><NavLink to='/' >Home</NavLink></li>
-                  <li className='nav-link'><NavLink to='/about'>About John Williams</NavLink></li>
-                  <li className='nav-link'><NavLink to='/criminalDefence'>Criminal Defence</NavLink></li>
-                  <li className='nav-link'><NavLink to='/DUIS'>DUIS</NavLink></li>
-                  <li className='nav-link'><NavLink to='/personalInjury'>Personal Personal Injury</NavLink></li>
-                  <li className='nav-link'><NavLink to='/contact'>Contact</NavLink></li>
-              </ul>
-      )
-  }
-
-  render() {
-      return (
-          <div className='navbar'>
-              { this.state.open ?  this.displayMobileMenu() : null}
-              {window.innerWidth > 1200 ? this.displayNavBar() : this.displayHamburgerMenu()}
-          </div>
-      );
-  }
-}
-
-export default Hamburger;
+      </div>
+    </Menu>
+  );
+};

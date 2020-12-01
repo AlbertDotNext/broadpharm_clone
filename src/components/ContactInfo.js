@@ -1,6 +1,6 @@
-import React from 'react'
-import './ContactInfo.css'
-import Phone from "@material-ui/icons/Phone"
+import React from 'react';
+import './ContactInfo.css';
+import Phone from "@material-ui/icons/Phone";
 import EmailIcon from '@material-ui/icons/Email';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -10,7 +10,9 @@ function ContactInfo(){
   return (
     <div className="Contact">
 
-
+     <div className="mobile-view-hamburger">
+      <HamburgerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
+     </div>
 
       <ul className="nav-contact">
         <li>

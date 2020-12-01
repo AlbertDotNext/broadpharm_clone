@@ -22,7 +22,7 @@
   box-sizing: border-box;
 }
 
-.hamburger {
+.mobile-view-hamburger {
   display: none;
 }
 
@@ -30,7 +30,7 @@
   .nav-contact {
     display: none;
   }
-  .hamburger {
-    display: flex;
+  .mobile-view-hamburger {
+    display: block;
   }
 }

@@ -1,19 +1,107 @@
-.hamburgerDropDown {
+/* Position and sizing of burger button */
+.bm-burger-button {
   position: fixed;
-  left: 40px;
-  top: 40px;
-  width: 300px;
-  background-color: black;
-  border: 1px solid bisque;
+  width: 36px;
+  height: 30px;
+  right: 20px;
+  top: 36px;
 }
 
-ul.hamburgerDropDown {
-  padding: 10px;
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #2685ca;
 }
 
-/* Position of the hamburger symbol */
-/* .navbar div {
-  right: -140px;
-  position: relative;
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #2685ca;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 50px;
+  width: 50px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #2685ca;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #fff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  line-height: 2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: black;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
   display: inline-block;
-} */
+
+  color: black;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #ffffff;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.search-box {
+  padding-top: 2em;
+}
+
+.search-box .search-box-value {
+  border-radius: 100px 0 0 100px;
+  font-weight: 400;
+  color: #6b6b6b;
+  font-size: 15px;
+  border-color: #ced4da;
+  height: 47px;
+  padding-left: 1.5em;
+  outline: none;
+  z-index: 0;
+}
+
+.search-box .search-box-button {
+  background: #2685ca;
+  color: #fff;
+  border-top-right-radius: 50em;
+  border-bottom-right-radius: 50em;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-left: -0.5px;
+  height: 47px;
+  border: 0;
+}
