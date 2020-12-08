@@ -26,6 +26,18 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Demo
 
+### Mobile view
+
+<img src="demo/mobile_view_1.gif" width="362" height="779">
+<img src="demo/mobile_view_2.gif" width="362" height="779">
+<img src="demo/mobile_view_3.gif" width="362" height="779">
+<img src="demo/mobile_view_4.gif" width="362" height="779">
+<img src="demo/mobile_view_5.gif" width="362" height="779">
+<img src="demo/mobile_view_6.gif" width="362" height="779">
+<img src="demo/mobile_view_7.gif" width="362" height="779">
+
+### Website view
+
 <img src="demo/1.gif" width="800" height="600">
 
 <img src="demo/2.gif" width="800" height="600">
