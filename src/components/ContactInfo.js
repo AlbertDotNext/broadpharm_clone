@@ -11,12 +11,13 @@ import StickyHeader from 'react-sticky-header';
 function ContactInfo(){
   return (
     <StickyHeader
+    backgroundColor={"white"}
     header={
       <div className="Contact">
 
-        <div className="mobile-view-hamburger">
+        {/* <div className="mobile-view-hamburger">
           <HamburgerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
-        </div>
+        </div> */}
 
         <ul className="nav-contact">
           <li>
@@ -36,13 +37,18 @@ function ContactInfo(){
 
       </div>
     }
+    children={
+      <div className="mobile-view-hamburger">
+          <HamburgerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
+        </div>
+    }
     >
 
       <div className="Contact">
 
-      <div className="mobile-view-hamburger">
-        <HamburgerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
-      </div>
+        <div className="mobile-view-hamburger">
+          <HamburgerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
+        </div>
 
         <ul className="nav-contact">
           <li>

@@ -5,6 +5,7 @@ import LockOpenIcon from '@material-ui/icons/LockOpen';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import SearchIcon from '@material-ui/icons/Search';
 
+
 export default HamburgerMenu => {
   return (
     <Menu right width={400}>
