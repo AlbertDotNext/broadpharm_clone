@@ -137,4 +137,8 @@ h5 {
   .Box1 {
     padding-top: 2em;
   }
+  .image-background {
+    display: flex;
+    justify-content: center;
+  }
 }
